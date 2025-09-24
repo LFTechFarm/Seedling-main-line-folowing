@@ -9,7 +9,14 @@ This project was developed for the **FIRA 25 Hackathon** by the **Farmagedon tea
 The goal of this code is to assist a robot in **making precise corrections while moving along crop rows**, ensuring it stays centered and follows the row smoothly. The approach aims to align the image central line with the detected line. 
 
 ---
+## Example Results
 
+Below is an example of the pipeline detecting the line for fine navigation within a crop row:
+
+<img width="1989" height="390" alt="row_detection" src="https://github.com/user-attachments/assets/bd5fc0ad-5d5b-42b4-b618-e4ffbbd0ae95" />
+
+
+---
 ## Main Steps
 
 1. **Preprocess the Image:** Crop the image and convert it to a suitable color space to enhance relevant features.  
@@ -19,14 +26,7 @@ The goal of this code is to assist a robot in **making precise corrections while
 5. **Output for Control: To_Do** Use the detected position to compute fine steering adjustments to keep the robot centered in the row, optionally visualizing the line for debugging.
 
 ---
-## Example Results
 
-Below is an example of the pipeline detecting the line for fine navigation within a crop row:
-
-<img width="1989" height="390" alt="row_detection" src="https://github.com/user-attachments/assets/bd5fc0ad-5d5b-42b4-b618-e4ffbbd0ae95" />
-
-
----
 
 ## Features
 
